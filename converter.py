@@ -17,9 +17,9 @@ def convert(sayi,taban):
 
 while True:
     sayi=input("sayı girin(programı sonlandırmak için x yazın): ")
-    if sayi=="x":
+    if sayi.lower()=="x":
         exit()
-    elif sayi !="x":
+    elif sayi.lower() !="x":
         a=int(input("hangi tabanda olduğunu yazın(max 36): "))
         if (a<37):
             b = int(input("hangi tabana çevirmek istediğinizi yazın(max 36): "))

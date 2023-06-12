@@ -26,7 +26,6 @@ while True:
             if (b<37):
                 yenisayi = convert(decimal(sayi, a), b)
                 print(""f"({sayi}){sozlukx[a]}", "=", f"({yenisayi}){sozlukx[b]}\n")
-                print("Oğuz İmer\n210175085\nBilişim Güvenliği Teknolojisi\n")
             else:
                 print("hatalı giriş")
         else:
